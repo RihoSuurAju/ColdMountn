@@ -8,7 +8,38 @@ html {
 }
 
 .main-container {
+    position: relative;
     height: 900px;
     width: 800px;
-    border: 2px solid var(--border-color);
+    border: 6px solid var(--border-color);
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Mansalva', cursive;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--border-color);
+}
+img {
+    position: absolute;
+}
+.mountain {
+    left:11.5%;
+    bottom:20%;
+}
+.cloud1 {
+    top:10%;
+    left:70%;
+}
+.cloud2 {
+    top: 30%;
+    left:40%;
+}
+.cloud3 {
+    top: 20%;
+    left:10%;
+}
+.text {
+    position: absolute;
+    left: 18%;
+    bottom:10%;
 }
